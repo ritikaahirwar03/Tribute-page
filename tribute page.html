@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tribute Page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            body {
+                background-color: rgb(223, 183, 131);
+            }
+
+            blockquote {
+                display: block;
+                font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 30px;
+                margin: 20px;
+                margin-top: 40px;
+                line-height: 40px;
+                position: relative;
+                border: 2px solid rgb(172, 119, 43);
+                text-align: center;
+                padding-top: 10px;
+                z-index: -1;
+            }
+
+            cite {
+                display: block;
+                font-size: 20px;
+                text-align: right;
+                z-index: 1;
+            }
+
+            cite:before {
+                content: "- ";
+            }
+
+            .container {
+                background-image: url("https://image.cnbcfm.com/api/v1/image/106016412-1562943429704gettyimages-1155197304.jpeg?v=1581630108&w=929&h=523&ffmt=webp");
+                background-size: contain;
+                background-attachment: scroll;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 600px;
+                position: relative;
+            }
+
+            .imgtext {
+                position: absolute;
+                text-align: center;
+                font-size: 50px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: lightgreen;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                word-spacing: 5px;
+                letter-spacing: 5px;
+                text-shadow: 2px 2px blue;
+            }
+
+            .text {
+                display: inline-block;
+
+                font-family: Tahoma, sans-serif;
+                text-align: justify;
+                margin: 0px 20% 0px 20%;
+            }
+
+            text>p {
+                padding: 10px;
+                margin: 10px;
+            }
+            .fa {
+                padding: 10px;
+                font-size: 40px;
+                width: 60px;
+                text-align: center;
+                text-decoration: none;
+                margin: 20px;
+                margin-top: 30px;
+               color: white;
+               text-shadow: none;
+               border-radius: 20%;
+
+            }
+            .fa-facebook {
+                background-color: cornflowerblue;
+            }
+            .fa-instagram {
+                background-color: hotpink;
+            }
+        </style>
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+        <blockquote>
+            <i>I really think a champion is defined not by their wins, but by how they can recover when they fall.</i>
+            <cite>Serena Williams</cite>
+        </blockquote>
+        <div class="container">
+            <div class="imgtext">
+                <p>Tribute to Serena Williams</p>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+        <div class="text">
+            <p>Serena Williams is an American professional tennis player.She has been ranked singles world No. 1 by the
+                Women's Tennis Association (WTA) for 319 weeks, including a joint-record 186 consecutive weeks, and
+                finished as the year-end No. 1 five times.</p>
+            <p>Along with her older sister Venus, Serena Williams was coached by her parents Oracene Price and Richard
+                Williams. Turning professional in 1995, she won her first major singles title at the 1999 US Open. From
+                the 2002 French Open to the 2003 Australian Open, she was dominant, winning all four major singles
+                titles (each time over Venus in the final) to achieve a non-calendar year Grand Slam and the career
+                Grand Slam, known as the "Serena Slam". Williams returned to dominance, claiming Olympic gold and
+                becoming the first tennis player to achieve a Career Golden Slam in both singles and doubles.</p>
+            <br>
+            <h1>Off court activities</h1>
+            <hr>
+            <h2>Fashion</h2>
+            <p>Williams has been noted for her unusual and colorful outfits on court. In 2002, there was much talk when
+                she wore a black lycra catsuit at the US Open.Since 2004, she has also run her own line of designer
+                apparel, "Aneres"—her first name spelled backward. In 2009, she launched a signature collection of
+                handbags and jewelry.In Fall 2019, Williams launched the first collection of her sustainable clothing
+                line, S by Serena.</p>
+            <br>
+            <h2>Activism</h2>
+            <p>Williams has become more involved in social change as her career has progressed, primarily using social
+                media as a medium of expressing her views.Also in 2016, Serena Williams wrote an open letter in Porter
+                Magazine's "Incredible Women of 2016" to speak out about gender equality and her personal struggles as a
+                woman in tennis. She noted that women's contributions to the sport of tennis are not recognized in
+                the way men's contributions are recognized; she also called out issues of equal pay in tennis. She ended
+                the letter stating that she hoped that her letter would inspire a new generation of women to "push for
+                greatness and follow their dreams with steadfast resilience."</p>
+            <br>
+            <h2>Charity Work</h2>
+            <p>In 2004 and 2005, Serena and her sister, Venus, visited hospitals and played several tennis matches in
+                predominantly black cities to raise money for the local Ronald McDonald House charities. An ESPN episode
+                was dedicated to the Williams sisters' charity tour.The Serena Williams Foundation also provides
+                university scholarships for underprivileged students in the United States.</p>
+        </div>
+    </body>
+
+</html>
